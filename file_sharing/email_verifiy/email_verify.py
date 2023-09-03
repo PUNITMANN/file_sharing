@@ -9,8 +9,8 @@ from helpers.my_sql_connector import my_sql_execute_query
 
 def send_email(verify_code, email_send_to, user_type):
     response = {"status": "failure", "status_code": 500}
-    MY_EMAIL = "punitmann9599@gmail.com"
-    PASSWORD = "noklwrojhlvdhzgr"
+    MY_EMAIL = ""
+    PASSWORD = ""
     TO_EMAIL = email_send_to
 
     # Create a message
